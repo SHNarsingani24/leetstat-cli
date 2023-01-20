@@ -22,7 +22,8 @@
 	],
 	"files": [
 		"index.js",
-		"utils"
+		"utils",
+		"command"
 	],
 	"scripts": {
 		"format": "prettier --write \"./**/*.{js,json}\""
