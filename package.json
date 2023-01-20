@@ -1,0 +1,47 @@
+{
+	"name": "leetstat-cli",
+	"description": "CLI to checkout your leetcode stats...",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/SHNarsingani24/leetstat-cli.git"
+	},
+	"version": "0.0.1",
+	"license": "MIT",
+	"bin": {
+		"leetstat-cli": "index.js",
+		"leetstat": "index.js"
+	},
+	"author": {
+		"name": "Sagar Narsingani",
+		"email": "narsinganisagarh@gmail.com",
+		"url": "https://www.linkedin.com/in/sagarnarsingani/"
+	},
+	"keywords": [
+		"leetstat-cli",
+		"Sagar Narsingani"
+	],
+	"files": [
+		"index.js",
+		"utils"
+	],
+	"scripts": {
+		"format": "prettier --write \"./**/*.{js,json}\""
+	},
+	"dependencies": {
+		"@nbl7/ora": "^1.0.3",
+		"asciichart": "^1.5.25",
+		"chalk": "^4.1.2",
+		"cli-alerts": "^1.2.2",
+		"cli-handle-error": "^4.4.0",
+		"cli-handle-unhandled": "^1.1.1",
+		"cli-meow-help": "^3.1.0",
+		"cli-table": "^0.3.11",
+		"cli-welcome": "^2.2.2",
+		"meow": "^9.0.0",
+		"netrc-rw": "^1.0.0",
+		"open": "^8.4.0"
+	},
+	"devDependencies": {
+		"prettier": "^2.8.3"
+	}
+}
