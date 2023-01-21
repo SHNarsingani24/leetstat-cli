@@ -17,7 +17,7 @@ A Command Line Interface (CLI) for the leetcode userd to access all the leetcode
 Install leetstat-cli with npm
 
 ```bash
-  npm install leetstat-cli
+  npm install -g leetstat-cli
   leetstat help
 ```
     
